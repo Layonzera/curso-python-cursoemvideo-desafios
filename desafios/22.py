@@ -1,0 +1,10 @@
+nome = input('Informe seu nome completo: ')
+nome_uppercase = nome.upper()
+nome_lowercase = nome.lower()
+nome_total_letras = len(nome.replace(" ", ""))
+total_letras_first_name = len(nome.split()[0])
+
+print(f'Nome com letras maiusculas: {nome_uppercase}')
+print(f'Nome com letras minusculas: {nome_lowercase}')
+print(f'Total de letras (sem espacos): {nome_total_letras}')
+print(f'Total letras no primeiro nome: {total_letras_first_name}')
